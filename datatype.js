@@ -13,3 +13,4 @@ console.log(typeof price)
 console.log(typeof free_Dilivery)
 console.log(typeof product_Name)
 console.log(typeof discount)
+

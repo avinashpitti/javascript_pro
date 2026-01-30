@@ -15,6 +15,7 @@ console.log(e1)
 var emp = {
     eid: 102,
     ename: "Rahul"
+
 }
 console.log(emp)
 
