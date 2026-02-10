@@ -1,22 +1,34 @@
-// print even numbers upto 20
-for (let i = 1; i <= 20; i++) {
-    if (i % 2 === 0)
-        console.log(i)
-}
-
-
-// print odd numbers in between 31 and 40
-for (let i = 31; i <= 40; i++) {
-    if (i % 2 === 1)
-        console.log(i)
-}
-
-// print even numbers between 100 and 110
-for (let i = 102; i < 110; i += 2) {
+// print 10 table
+for (let i = 10; i <= 100; i += 10) {
     console.log(i)
 }
 
-//print even numbers between 200 and 210
-for (let i = 201; i < 210; i += 2) {
-    console.log(i)
+// print 11 table
+for (let i = 1; i <= 10; i++) {
+    console.log(i * 11)
 }
+
+//print 17 table
+let num = 17;
+for (let i = 1; i <= 10; i++) {
+    console.log(num * i)
+}
+
+//print 19 table
+let nums = 19;
+for (let i = 1; i <= 10; i++) {
+    console.log(nums * i)
+}
+
+
+// print 12 table
+for (let i = 1; i <= 10; i++) {
+    console.log(`12 * ${i} =${12 * i}`)
+}
+
+// print 13 table
+let n = 13
+for (let i = 1; i <= 10; i++) {
+    console.log(`${n}* ${i}=${n * i}`)
+}
+
