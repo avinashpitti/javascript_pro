@@ -119,3 +119,5 @@ for (let emp of empls) {
 }
 
 console.log('No of Indonesian male employees : ', male_count)
+
+// Try using for loop instead of for of loop
